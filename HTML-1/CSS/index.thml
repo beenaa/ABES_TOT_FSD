@@ -1,0 +1,37 @@
+h2{
+    background-color: aquamarine;
+}
+p{
+    background-color: aqua;
+}
+#p{
+    background-color: aquamarine;
+
+
+}
+.paragraph{
+    background-color: red;
+    color: antiquewhite;
+}
+/* any tag selector */
+div p{
+    background-color: blue;
+    color: white;
+} 
+ /* child selector */
+ div>p{
+    background-color: brown;
+    color: aliceblue;
+ }
+ /*first adgesent sibling selector */
+
+  div+p{
+    background-color: brown;
+    color: aliceblue;
+ }
+ 
+ /* all adgesent sibling selector */
+ div~p{
+    background-color: brown;
+    color: aliceblue;
+ }
