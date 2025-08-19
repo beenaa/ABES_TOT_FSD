@@ -1,9 +1,0 @@
- .box{
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
-    grid-template-rows:10% 45% 45%;
-    border: 1px solid rebeccapurple;
-    height:900;
-    width: 900px;
-    background-color:aliceblue;
-}
