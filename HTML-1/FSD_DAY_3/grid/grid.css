@@ -1,0 +1,113 @@
+ .box{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 200px 400px 200px;
+    border: 1px solid rebeccapurple;
+    height: 800px;
+    width: 850px;
+    /* margin: 50px; */
+    background-color:yellow;
+}
+.box1{
+    /* height: 150px;
+    width:200px ; */
+    height: auto;
+    width: auto;
+    border: 1px dotted blue;
+    background-color: aqua;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.box2{
+    display: grid;
+     grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr) ;
+     height: 200px;
+    width:200px ;
+    border: 1px solid red;
+    background-color: palevioletred;
+    
+    
+}
+.box21{
+    height: 100px;
+    width:80px ;
+    /* border: 1px dotted green; */
+    background-color: yellowgreen;
+     border: 2px solid black;
+
+}
+.box22{
+    height: 100px;
+    width:80px ;
+    /* border: 1px dotted green; */
+    background-color: yellowgreen;
+  border: 2px solid black;
+
+}
+
+.box23{
+    height: 100px;
+    width:80px ;
+    /* border: 1px dotted green; */
+    background-color: yellowgreen;
+      border: 2px solid black;
+
+}
+.box24{
+   height: 100px;
+    width:80px ;
+    /* border: 1px dotted green; */
+    background-color: yellowgreen;
+      border: 2px solid black;
+
+}
+
+
+.box3{
+     height: 200px;
+    width:200px ;
+    border: 1px dotted green;
+    background-color: yellowgreen;
+ 
+}
+
+.box4{
+     height: 200px;
+    width:200px ;
+    border: 1px dotted yellow;
+    background-color: peru;
+
+}
+
+ .box5{
+     height: 150px;
+    width:200px ;
+    border: 1px dotted brown;
+    background-color:red;
+}
+
+.box6{
+     height: 150px;
+    width:200px ;
+    border: 1px dotted yellow;
+    background-color:green;
+}
+
+.box7{
+     height: 150px;
+    width:200px ;
+    border: 1px dotted rebeccapurple;
+    background-color: peru;
+}
+
+.box8{
+     height: 150px;
+    width:200px ;
+    border: 1px dotted green;
+    background-color: goldenrod;
+}   
+
