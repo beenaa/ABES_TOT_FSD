@@ -1,0 +1,72 @@
+ .main_box{
+    display: grid;
+    grid-template-columns:auto auto;
+    border: 1px solid rebeccapurple;
+    padding: 5px;
+    background-color: aqua;
+}
+
+
+.box1{
+      
+    display: grid;
+    grid-template-columns:auto auto;
+    border: 1px solid rgb(29, 71, 150);
+    padding: 5px;
+    background-color: rgb(240, 240, 236);
+}
+.box2{
+    border: 1px solid black;
+    background-color: azure;
+    
+   
+}
+.box11{
+    border: 1px solid black;
+    background-color: azure;
+    
+   
+}
+.box12{
+    border: 1px solid black;
+    background-color: azure;
+    
+   
+}
+.box13{
+    border: 1px solid black;
+    background-color: azure;
+    
+   
+}
+    
+
+
+.box14{
+    border: 1px solid black;
+    background-color: azure;
+    
+   
+}
+
+.box3{
+     border: 1px solid black;
+    background-color: azure;
+    
+}
+
+.box4{
+   border: 1px solid black;
+    background-color: azure;
+    
+   
+}
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: large;
+    color: blueviolet;
+}
+
+
